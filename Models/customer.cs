@@ -13,5 +13,6 @@ namespace LuceMIS4200_1045_sp20.Models
         public string email { get; set; }
         public string phone { get; set; }
         public DateTime customerSince { get; set; }
+        public ICollection<Orders> Orders  { get; set; }
     }
 }
