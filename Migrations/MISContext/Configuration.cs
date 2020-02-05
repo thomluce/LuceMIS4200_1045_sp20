@@ -12,6 +12,7 @@ namespace LuceMIS4200_1045_sp20.Migrations.MISContext
             AutomaticMigrationsEnabled = true;
             MigrationsDirectory = @"Migrations\MISContext";
             ContextKey = "LuceMIS4200_1045_sp20.DAL.MIS4200Context";
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(LuceMIS4200_1045_sp20.DAL.MIS4200Context context)
